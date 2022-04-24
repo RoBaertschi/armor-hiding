@@ -1,20 +1,20 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "ch.fantasticgame28",
+		"id": "armorhiding",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Armor Hiding",
+			"description": "Hides you Armor.",
 			"contributors": {
-				"Me!": "Owner"
+				"Me!": "Fantasticgame28"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": ""
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"client": "ch.fantasticgame28.armorhiding.ArmorHiding"
 		},
 		"depends": [
 			{
@@ -31,5 +31,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "armorhiding.mixins.json"
 }
