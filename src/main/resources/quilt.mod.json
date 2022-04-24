@@ -14,7 +14,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"client": "ch.fantasticgame28.armorhiding.ArmorHiding"
+			"client_init": "ch.fantasticgame28.armorhiding.ArmorHiding"
 		},
 		"depends": [
 			{
